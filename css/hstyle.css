@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+
+body {
+    background-color: white;
+    
+}
+
+
+/*header*/
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    height: 100%;   
+}
+
+/*head*/
+.top{
+    position: fixed;
+    width: 100%;
+    height: 6.5%;
+    background-color: white;
+    opacity: 1;
+    border-bottom: thin solid #a2a3a5;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    z-index: 100;
+    
+    
+}
+/*logo*/
+.logo {
+    position:fixed;
+    top: 1.8%;
+    width: 8%;
+    height: 4%;
+    left:2%;
+}
+
+.img_logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*logo-end*/
+/*menu*/
+.menu-button{
+    position: fixed;
+    top: 2%;
+    width: 4%;
+    height: 3%;
+    right:2%;
+    
+}
+
+.menu_button {
+  width: 3%;
+  height: 4.5%;
+  position: fixed;
+  right: 2%;
+  z-index: 1000;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.menu_button span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: #2f2f2f;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+}
+
+.menu_button span:nth-child(1) {top: 0px;}
+
+.menu_button span:nth-child(2) {top: 9px;}
+
+.menu_button span:nth-child(3) {top: 18px;}
+.menu_button:hover {opacity: 0.6;}
+/*menu-button-end*/
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #2f2f2f; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 5% 10% 5% 30%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:nth-child(1) { padding-right: 0px; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/*head-end*/
+.down{
+    position: absolute;
+    width: 100%;
+    height: 93.5%;
+    top: 6.5%;
+    z-index: 99;
+
+}
+
+/*header-img*/
+.img{
+    position: absolute;
+    width: 100%;
+    height: 93.5%;
+}
+
+.welcome_box{
+  position: absolute;
+  text-align: center;
+  min-width: 20%;
+  left: 50%;
+  top: 50%;
+  padding: 5%;
+  background: rgba(255, 255, 255, 0.8);
+  outline: 4px double #FFFFFF;
+  outline-offset: 8px;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+}
+
+/*header_end*/

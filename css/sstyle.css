@@ -1,0 +1,23 @@
+.mydiv p {
+    color: aqua;
+    text-align: center;
+    margin-top: 50%;
+    right: 50%;
+    text-shadow: 1px 1px #009999;
+}
+
+
+.mydiv a {
+    color: #3399ff;
+    text-align: center;
+    margin-right: 45%;
+    text-shadow: 1px 1px #004d4d;  
+    text-decoration-line: underline;
+    text-decoration-color: #cce6ff;
+}
+
+.mydiv a:hover{
+    
+    color: #66b3ff;
+    text-decoration-color: #e6f2ff;
+}

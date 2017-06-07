@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding:0px;
+    
+}
+
+body {
+    background-color: white;
+    
+}
+
+
+
+/*head*/
+.top{
+    position: fixed;
+    width: 100%;
+    height: 6.5%;
+    background-color: white;
+    opacity: 1;
+    border-bottom: thin solid #a2a3a5;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+    z-index: 100;
+    
+    
+}
+/*logo*/
+.logo {
+    position:fixed;
+    top: 1.8%;
+    width: 8%;
+    height: 4%;
+    left:2%;
+    z-index: 3;
+}
+
+.img_logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/*logo-end*/
+/*menu*/
+.menu-button{
+    position: fixed;
+    top: 2%;
+    width: 4%;
+    height: 3%;
+    right:2%;
+    
+}
+
+.menu_button {
+  width: 3%;
+  height: 4.5%;
+  position: fixed;
+  right: 2%;
+  z-index: 1000;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+.menu_button span {
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background: #2f2f2f;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+}
+
+.menu_button span:nth-child(1) {top: 0px;}
+
+.menu_button span:nth-child(2) {top: 9px;}
+
+.menu_button span:nth-child(3) {top: 18px;}
+.menu_button:hover {opacity: 0.6;}
+/*menu-button-end*/
+
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #2f2f2f; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 5% 10% 5% 30%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:nth-child(1) { padding-right: 0px; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/*head-end*/
+
+
+.down{
+    position: absolute;
+    width: 100%;
+    height: 93.5%;
+    top: 6.5%;
+    z-index: 99;
+
+}
+
+
+#mydiv p{
+    position: fixed;
+    z-index: 100;
+    top: 50%;
+    right: 40%;
+    color:  #adad85;
+    text-shadow: 1px 1px #ccccb3;
+    text-align: center;
+    
+}
+
+
+.content {
+    position:relative;
+    z-index: 10;
+    height: 100%;
+
+}
+
+.img_content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+
+}
+
+#HTMLCSS a {
+    text-align: center;
+    
+}
+
+
+
+
+#HTMLCSS a {
+    text-align: center;
+    color:#4ce600;
+    text-decoration: none;
+    font-size: 20px;
+    -webkit-transition: width 0.1s; /* Safari */
+    transition: font-size 0.1s;
+    text-shadow: 1px 1px #000;
+    
+}
+
+
+#HTMLCSS a:hover {
+    opacity: 0.6%;
+    text-decoration: underline;
+    text-decoration-color: #4ce600;
+    font-size: 21px;
+    color:azure;
+}
+
+
+button {
+    text-shadow: 1px 1px #000;
+}
+
+
+/* Style each tab content individually */ 
+#JavaScript {background-color:#b3ffff;}
+#HTMLCSS {background-color:#b3ffcc;}
+#c {background-color:#ffffb3;}
+#swift {background-color:#e0e0d1;}
